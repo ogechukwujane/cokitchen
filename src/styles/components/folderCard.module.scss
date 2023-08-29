@@ -7,7 +7,16 @@
   padding: 8px;
   border-radius: 6px;
   border: 1px solid $theme-border;
-  width: calc(25% - 20px);
+  min-width: 280px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  &:hover {
+    transform: scale(1.05);
+  }
+  &:active {
+    transform: scale(1.08);
+  }
+
   .icon__wrap {
     width: 35px;
     height: 35px;

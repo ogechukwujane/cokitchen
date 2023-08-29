@@ -12,6 +12,7 @@
   padding: 50px 20px;
   backdrop-filter: blur(1.5px);
   overflow: scroll;
+  z-index: 5;
   scrollbar-width: 0px;
   &::-webkit-scrollbar {
     display: none;
@@ -31,6 +32,9 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        img{
+          cursor: pointer;
+        }
       }
     }
     .image__container {
@@ -55,6 +59,7 @@
         position: absolute;
         top: 10px;
         right: 10px;
+        cursor: pointer;
         img {
           width: 14px;
           height: 14px;
