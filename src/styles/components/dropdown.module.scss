@@ -1,0 +1,70 @@
+@import "../constants";
+
+.Dropdown__wrap {
+  width: 180px;
+  position: relative;
+  .content__wrap {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: none;
+    padding: 0px;
+    border-radius: 8px;
+    border: 1px solid $theme-border;
+    background: $theme-white;
+    overflow: hidden;
+    .dropdown__button {
+      height: 48px;
+      display: flex;
+      align-items: center;
+      column-gap: 5px;
+      justify-content: space-between;
+      cursor: pointer;
+      padding: 10px;
+      @media (max-width: 600px) {
+        height: 40px;
+      }
+      .text {
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 400;
+        color: $theme-black;
+      }
+      .label {
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 400;
+        color: $text-400;
+      }
+      img {
+        width: 15px;
+      }
+    }
+  }
+  .dropdown {
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    z-index: 5;
+    max-height: 200px;
+    background: $theme-white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px $theme-light-black;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    scrollbar-width: 0px;
+    &::-webkit-scrollbar {
+      width: 0px;
+    }
+    row-gap: 10px;
+    padding: 10px;
+    .dropdown__text {
+      font-size: 14px;
+      line-height: 16px;
+      font-weight: 400;
+      color: $theme-black;
+      cursor: pointer;
+    }
+  }
+}
