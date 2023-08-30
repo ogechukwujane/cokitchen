@@ -27,6 +27,9 @@
     position: relative;
     cursor: pointer;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: $theme-light-blue;
     img {
       width: 100%;
@@ -35,6 +38,10 @@
       &:hover {
         transform: scale(1.02);
       }
+    }
+    .file__icon {
+      width: 100px;
+      height: 100px;
     }
     .fav__icon {
       width: 35px;
@@ -75,6 +82,15 @@
       display: flex;
       align-items: center;
       column-gap: 15px;
+      .bg__image {
+        background: #fff7e5;
+      }
+      .bg__pdf {
+        background: #ffebeb;
+      }
+      .bg__excel {
+        background: #ebfaf3;
+      }
       .icon__wrap {
         width: 35px;
         height: 35px;
@@ -82,7 +98,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: $theme-light-black;
         img {
           width: 19px;
           height: 19px;
