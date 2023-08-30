@@ -43,6 +43,6 @@ Every folder were exported through it's respective index file.
 
 ## Deployment
 
-This  app was deployed on netlify and can be accessed via
+This  app wasn't deployed because the endpoint url is not secured, so items can't render when deployed. Can be viewed locally only.
 
-- [CoKitchen](https://cokitchen.netlify.com) 
+
