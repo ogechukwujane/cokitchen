@@ -9,8 +9,7 @@
     position: relative;
     border: none;
     padding: 0px;
-    border-radius: 8px;
-    border: 1px solid $theme-border;
+
     background: $theme-white;
     overflow: hidden;
     .dropdown__button {
@@ -21,6 +20,9 @@
       justify-content: space-between;
       cursor: pointer;
       padding: 10px;
+      border-radius: 8px;
+      border: 1px solid $theme-border;
+      min-width: 130px;
       @media (max-width: 600px) {
         height: 40px;
       }
