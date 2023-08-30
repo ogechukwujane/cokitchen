@@ -1,8 +1,48 @@
-# React + Vite
+# CoKitchen
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CoKitchen  project was scaffolded using Vite.
 
-Currently, two official plugins are available:
+## Tools and Technology
+-Language: Javascript,
+-Framwork: React,
+-Styling: Sass.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## App Set up
+
+- Clone the project and install dependency using
+
+```bash
+yarn
+```
+
+- Run in development mode
+
+```bash
+yarn dev
+```
+
+
+## Folder Structure
+
+Every folder were exported through it's respective index file.
+
+- Api (folder) where the api call was made.
+
+- Assets (folder) where the images used can be found.
+
+- Components (folder) where all reusable components were crafed.
+
+- Pages (folder) are where each pages are found.
+
+- Route (folder) where the page route was implemented.
+
+- Styles (folder) where all the component styles and reusable styles written.
+
+- Utils (folder) used to store reusable functions used round the app.
+
+
+## Deployment
+
+This  app was deployed on netlify and can be accessed via
+
+- [CoKitchen](https://cokitchen.netlify.com) 
